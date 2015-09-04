@@ -8,6 +8,6 @@ Add the following to your terraform manifest:
 
 ```
 module "terraform-packer-iam-policy" {
-    source = "./terraform-packer-iam-policy"
+    source = "github.com/jsallis/terraform-packer-iam-policy"
 }
 ```
